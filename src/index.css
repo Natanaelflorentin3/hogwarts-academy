@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+/* Color de marca: bordó con detalles dorados */
+@theme {
+  --color-marca-50: #fdf2f4;
+  --color-marca-100: #fbe4e8;
+  --color-marca-200: #f5c7d0;
+  --color-marca-500: #b4334c;
+  --color-marca-600: #9b2740;
+  --color-marca-700: #7f1d2d;
+  --color-marca-800: #651726;
+  --color-marca-900: #4a111c;
+  --color-dorado: #f5c542;
+}
+
+body {
+  @apply bg-slate-50 text-slate-800 antialiased;
+}
